@@ -1,0 +1,73 @@
+@media (max-width: 425px), (max-width: 768px){
+    .container{ 
+        background: url(../images/bg-mobile.svg) center center 
+        no-repeat;     
+        background-color: var(--violet);
+    }
+    /* HEADER */
+
+    .container .header{
+        margin: 50px 0 0 30px;
+        width: 100%;
+    }
+
+    .container .header img{
+        width: 150px;
+    }
+
+    /* HERO */
+
+    .container .hero{
+        flex-direction: column;
+        margin: 0;    
+    }
+
+    .container .hero .image{
+        text-align: center;        
+    }
+
+    .container .hero .image img{
+        max-width: 80%
+    }
+
+    .container .hero .text{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .container .hero .text h1{
+        font-size: 2.5rem;
+    }
+
+    .container .hero .text p{
+        font-size: 1.6rem;
+        margin-top: 20px;
+    }
+
+    .container .hero .btn{
+        align-self: center;       
+        padding: 10px;
+        font-size: 1.4rem;
+        margin-top: 40px;
+    }
+
+    /*  FOOTER */
+    .footer{
+        align-self: center
+    }   
+
+    .footer .icons{
+        margin: 0;
+    }
+
+    .footer .icons i{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 425px){
+    .container .hero .text{
+        margin-top: 50px;
+    }
+}
