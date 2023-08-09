@@ -7,8 +7,8 @@
     /* HEADER */
 
     .container .header{
-        margin: 50px 0 0 30px;
-        width: 100%;
+        margin-left: 20px;
+        margin-top: 50px;
     }
 
     .container .header img{
@@ -20,6 +20,7 @@
     .container .hero{
         flex-direction: column;
         margin: 0;    
+        flex-wrap: wrap;
     }
 
     .container .hero .image{
@@ -57,11 +58,11 @@
         align-self: center
     }   
 
-    .footer .icons{
+    .footer .list-icons{
         margin: 0;
     }
 
-    .footer .icons i{
+    .footer .list-icons i{
         font-size: 1.5rem;
     }
 }
