@@ -107,7 +107,7 @@ html{
 }
 
 .footer .list-icons li{
-    margin-right: 12px;
+    margin-inline: 6px;
 }
 
 .footer .list-icons i{

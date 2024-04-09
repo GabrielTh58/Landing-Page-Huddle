@@ -55,11 +55,11 @@
 
     /*  FOOTER */
     .footer{
-        align-self: center
+        align-self: center;
     }   
 
     .footer .list-icons{
-        margin-right: 2rem;
+        margin-right: 0;
     }
 
     .footer .list-icons i{
